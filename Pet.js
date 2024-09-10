@@ -15,7 +15,7 @@ class Dog extends Pet {
     super(name, age);
   }
   bark() {
-    console.log(`${this.name} says "Woof!"`);
+    console.log(`${this.name} says "Hi-ho diggety!!"`);
   }
 }
 
@@ -24,12 +24,12 @@ class Cat extends Pet {
     super(name, age);
   }
   meow() {
-    console.log(`${this.name} says "Meow!"`);
+    console.log(`${this.name} says "Bee-yoo-tee-ful!"`);
   }
 }
 
-const dog = new Dog("Buddy", 4);
-const cat = new Cat("Whiskers", 3);
+const dog = new Dog("CatDog", 4);
+const cat = new Cat("CatDog", 3);
 
 console.log(welcomeMessage);
 

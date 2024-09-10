@@ -1,4 +1,4 @@
-const welcomeMessage = "Hello from the pet shot of horror!";
+const welcomeMessage = "Hello from the pet shop of horror!";
 
 module.exports = {
   welcomeMessage,
