@@ -1,0 +1,12 @@
+{
+  "name": "warmup-9-10-24-oop",
+  "version": "1.0.0",
+  "description": "You are building a simple pet shop simulation using Object-Oriented Programming (OOP) principles in JavaScript. You will create classes to represent different types of pets and their actions. The goal is to practice using classes, inheritance, and method overriding.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
