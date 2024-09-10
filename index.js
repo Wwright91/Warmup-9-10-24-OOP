@@ -9,6 +9,20 @@ class Pet {
     }
 }
 
-const doSomething = new Pet();
+class Cat extends Pet {
+    speak() {
+        return `Meow! im ${this.name} and i have ${this.age} years old`;
+    }
+}
 
-console.log(doSomething.speak());
+class Dog extends Pet {
+    speak() {
+        return `Woof! im ${this.name} and i have ${this.age} years old`;
+    }
+}
+
+const doSomething = new Pet();
+const cat = new Cat("Mia", 2);
+const dog = new Dog("Fido", 3);
+
+console.log( cat.speak());
