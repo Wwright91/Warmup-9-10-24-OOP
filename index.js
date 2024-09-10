@@ -8,25 +8,22 @@ class Pet {
       return "Some sound";
     }
   }
-  
-  // Subclass Dog
+
   class Dog extends Pet {
     speak() {
       return "Woof!";
     }
   }
-  
-  // Subclass Cat
+
   class Cat extends Pet {
     speak() {
       return "Meow!";
     }
   }
-  
-  // Testing the Classes
+
   const myDog = new Dog("Buddy", 3);
-  console.log(`${myDog.name} says: ${myDog.speak()}`);  // Output: Buddy says: Woof!
+  console.log(`${myDog.name} says: ${myDog.speak()}`);
   
   const myCat = new Cat("Whiskers", 2);
-  console.log(`${myCat.name} says: ${myCat.speak()}`);  // Output: Whiskers says: Meow!
+  console.log(`${myCat.name} says: ${myCat.speak()}`);
   
